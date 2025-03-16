@@ -1,0 +1,7 @@
+[project]
+name = "aprendizaje_profundo"
+version = "0.1.0"
+dependencies = ["requests", "numpy", "pandas", "matplotlib", "cv2"]
+
+[tool.setuptools.packages]
+find = {include = ["ejemplo"]}
